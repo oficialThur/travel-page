@@ -19,11 +19,15 @@
     --text-lg: bold 32px/125% var(--font-family);
     --text-md: 14px/170% var(--font-family);
     --text-sm: 12px/170% var(--font-family);
-    
 }
 
 body{
     font: var(--text);
     background-color: var(--background-color);
     color: var(--text-color-secondary);
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color-primary);
 }
